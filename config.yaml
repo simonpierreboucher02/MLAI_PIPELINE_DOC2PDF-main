@@ -1,0 +1,13 @@
+# Configuration for DocumentConverter
+
+# Directories
+input_dir: "path/to/your/input_documents"    # Replace with the path to your input Word documents
+output_dir: "path/to/output_pdfs"           # Replace with the path where you want to save the converted PDFs
+
+# Conversion Settings
+max_workers: 4                              # Number of threads for parallel processing
+
+# Logging Settings
+logging:
+  log_file: "document_converter.log"        # Log file name
+  log_level: "INFO"                         # Logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
